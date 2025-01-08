@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: lightgoldenrodyellow;
+}
+.background img{
+    width: 1536px;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+.join{
+    position:absolute;
+    top:40px;
+    left: 368px;
+    border: 4px solid lightgoldenrodyellow;
+    border-radius: 10px;
+    width: 800px;
+    height: 653px;
+    padding:50px;
+    padding-top: 42px;
+    backdrop-filter: brightness(50%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.join label{
+    float: left;
+    clear: both;
+    color:whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    line-height: 40px;
+}
+.join input{
+    float: right;
+    clear: both;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    line-height: 40px;
+    height: 35px;
+    position: relative;
+    top:-40px;
+    opacity: 0.5;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.join button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    position: relative;
+    top:500px;
+}
+.join a{
+    position: absolute;
+    top:585px;
+    left:70px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.join a:hover{
+    color: lightgoldenrodyellow;
+}
+.join input[value="male"]{
+    position: absolute;
+    top: 336px;
+    left: 520px;
+    width: 17px;
+}
+.join input[value="female"]{
+    position: absolute;
+    top: 336px;
+    left: 680px;
+    width: 17px;
+}
+label#male{
+    float: none;
+    clear: none;
+    position: absolute;
+    top: 335px;
+    left: 479px;
+    font-size: medium;
+}
+label#female{
+    float: none;
+    clear: none;
+    position: absolute;
+    top: 335px;
+    left: 626px;
+    font-size: medium;
+}
+label#jp{
+    position: relative;
+    top: 30px;
+}
+label#jd{
+    position: relative;
+    top: 60px;
+}
+.join input[type="checkbox"]{
+    position: absolute;
+    left: 39px;
+    top: 575px;
+}
+.join select{
+    position: absolute;
+    top: 467px;
+    left: 527px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    opacity: 0.5;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.join button{
+    background-color: white;
+    width: 200px;
+    height: 32px;
+    border: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.join button:hover{
+    background-color: lightgoldenrodyellow;
+}
+.join button[type="reset"]{
+    position: absolute;
+    left: 100px;
+    top: 630px;
+}
+.join button[type="submit"]{
+    position: absolute;
+    left: 480px;
+    top: 630px;
+}
+.join input#dob{
+    position: absolute;
+    top: 388px;
+    left: 537px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.join input#start{
+    position: absolute;
+    top: 529px;
+    left: 537px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}

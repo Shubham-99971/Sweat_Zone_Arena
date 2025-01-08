@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.background img{
+    width: 1519px;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+.policy{
+    border: 4px double lightgoldenrodyellow;
+    border-radius: 10px;
+    padding: 15px;
+    position:absolute;
+    top:30px;
+    left: 10px;
+    right: 10px;
+    bottom: 20px;
+    overflow-y: scroll;
+    backdrop-filter: brightness(30%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#h1,#h2,#h3,#h4,#h5{
+    color: lightgoldenrodyellow;
+}
+#p1,#p2,#p3,#p4,#p5{
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}

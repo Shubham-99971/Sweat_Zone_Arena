@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: darkgray;
+}
+.background img{
+    width: 1535px;
+    height: 756.6px;
+}
+.text-center{
+    position:absolute;
+    width: 573px;
+    top: 30px;
+    left: 473px;
+    padding: 15px;
+    backdrop-filter: brightness(40%);
+    color: white;
+    font-size: large;
+    line-height: 40px;
+}
+input{
+    float: right;
+    clear: both;
+}
+#Final{
+    top:400px;
+    left: 460px;
+    padding: 3px;
+    width: fit-content;
+}
+#m{
+    position: relative;
+    left: 265px;
+    top: -13px;
+}
+#f{
+    position: relative;
+    left: 195px;
+    top: 26px;
+}
+select{
+    position: relative;
+    left: 99px;
+}
+button{
+    position: relative;
+    left: 123px;
+    height: 29px;
+    top: 18px;
+}
+button:hover{
+    background-color: lightgoldenrodyellow;
+}

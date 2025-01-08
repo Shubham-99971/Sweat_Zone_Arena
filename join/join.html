@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <script src="join.js"></script>
+        <link rel="stylesheet" href="join.css">
+    </head>
+    <body>
+        <div class="background">
+            <img src="images/pexels-cesar-galeo-3253498.jpg">
+        </div>
+        <div class="join">
+            <form class="form" id="form5">
+                <label>Enter your First Name</label>
+                <input type="text" id="name1" name="name1" required>
+                <label>Enter your Last Name</label>
+                <input type="text" id="name2" name="name2" required>
+                <label>Email Address</label>
+                <input type="email" id="mail" name="mail" required>
+                <label>Phone</label>
+                <input type="number" id="phone" name="phone" required>
+                <label>Gender</label>
+                <input type="radio" id="g1" name="gender" value="male" required><label id="male">male</label>
+                <input type="radio" id="g2" name="gender" value="female"><label id="female">female</label>
+                <label>Date of Birth</label>
+                <input type="date" name="dob" id="dob">
+                <button type="reset">Reset</button>
+                <button type="submit" name="submit1" onclick="clickbtn()">Submit</button>
+                <input type="checkbox" id="checkbox" required><a href="../policie and legal/policies.html">do you agree with the terms & Conditions.</a>
+                <label id="jp">Joining Plan</label>
+                <select name="plan">
+                    <option value="trial" selected>3 days free</option>
+                    <option value="Rs.2000/1 month">Rs.2000/1 month</option>
+                    <option value="Rs.10000/6 month">Rs.10000/6 month</option>
+                    <option value="Rs.19000/1 year">Rs.19000/1 year</option>
+                </select>
+                <label id="jd">Joining Date</label>
+                <input type="date" name="start" id="start">
+            </form>
+        </div>
+    </body>
+</html>

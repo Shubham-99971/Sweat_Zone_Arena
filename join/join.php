@@ -1,0 +1,20 @@
+<?php
+$sname="localhost";
+$uname="root";
+$pass="";
+$dbname="thesweatzone";
+$serverConnection=mysqli_connect($sname,$uname,$pass,$dbname);
+if(!$serverConnection){
+    die();
+}
+$name1=$_POST['name1'];
+$name2=$_POST['name2'];
+$mail=$_POST['mail'];
+$phone=$_POST['phone'];
+$gender=$_POST['gender'];
+$dob=$_POST['dob'];
+$plan=$_POST['plan'];
+$start=$_POST['start'];
+$sql="INSERT INTO `members`(`first name`,`last name`, `email`, `phone`, `gender`,`dob`, `plan`, `start`) VALUES ('$name1','$name2','$mail','$phone','$gender','$dob','$plan','$start')";
+$rs=mysqli_query($serverConnection,$sql);
+?>
